@@ -1,14 +1,3 @@
-# Task-2-part-1-Naive-Bayes-Implementation-
-We'll use the TREC 2007 Spam Track public corpus, which consists of 50,000 emails labeled as spam or ham (non-spam).
-We'll perform the following preprocessing steps:
-
-Tokenization: split emails into individual words
-Stopword removal: remove common words like "the", "and", etc.
-Stemming: reduce words to their base form (e.g., "running" becomes "run")
-Vectorization: convert emails into numerical vectors
-
-CODE:
-
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split

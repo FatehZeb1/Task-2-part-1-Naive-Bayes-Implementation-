@@ -6,7 +6,9 @@ Tokenization: split emails into individual words
 Stopword removal: remove common words like "the", "and", etc.
 Stemming: reduce words to their base form (e.g., "running" becomes "run")
 Vectorization: convert emails into numerical vectors
+
 CODE:
+
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
